@@ -1,6 +1,10 @@
 web:
   hosts:
     178.62.0.18
+  children:
+    copies:
+      hosts:
+        178.62.103.133
   vars:
     domain: site.dev
     web_user: www-data
