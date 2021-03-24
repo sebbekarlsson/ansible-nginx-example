@@ -1,0 +1,10 @@
+web:
+  hosts:
+    138.68.152.74
+  vars:
+    domain: site.dev
+    web_user: www-data
+    web_group: www-data
+    ansible_user: root
+    ansible_ssh_private_key_file: ~/.ssh/id_rsa
+    ansible_sudo_pass: abc123

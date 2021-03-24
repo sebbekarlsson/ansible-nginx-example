@@ -1,0 +1,6 @@
+- hosts: web
+  tasks:
+  - name: "sync website"
+    copy:
+      src: site/
+      dest: /var/www/{{ domain }}
