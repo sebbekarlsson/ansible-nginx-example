@@ -5,4 +5,4 @@ source ./venv/bin/activate
 cd tests
 python setup.py develop
 cd ..
-pytest
+./venv/bin/pytest
